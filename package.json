@@ -1,26 +1,16 @@
 {
   "name": "opred",
-  "version": "0.1.0",
-  "description": "Web proj",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {},
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NuclearGalactus/opred.git"
-  },
-  "keywords": [
-    "web"
-  ],
-  "author": "Flouroantimonic",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NuclearGalactus/opred/issues"
-  },
-  "homepage": "https://github.com/NuclearGalactus/opred#readme"
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
 }
